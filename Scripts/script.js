@@ -37,9 +37,6 @@ angular.module('newsModule', ['ngRoute'])
   .controller('homeController', ['newsList', function(newsList) {
     this.newsList = newsList;
   }])
-  .controller('newsController', [function() {
-    
-  }])
   .controller('aboutController', [function() {
 
   }]);
